@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms - Seaside Hotel</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .room-card {
+            padding: 20px;
+            border-radius: 10px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .footer {
+            background: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Seaside Hotel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="hotel room booking.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="rooms.html">Rooms</a></li>
+                <li class="nav-item"><a class="nav-link" href="booking.html">Book Now</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ROOMS -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Our Rooms</h2>
+
+    <div class="row g-4">
+        <!-- Standard Room -->
+        <div class="col-md-4">
+            <div class="room-card">
+                <h4>Standard Room</h4>
+                <p>Perfect for solo travelers and short stays.</p>
+                <p><strong>₹2500/night</strong></p>
+                <a href="booking.html" class="btn btn-primary">Book Now</a>
+            </div>
+        </div>
+
+        <!-- Deluxe Room -->
+        <div class="col-md-4">
+            <div class="room-card">
+                <h4>Deluxe Room</h4>
+                <p>Includes a beautiful seaside view.</p>
+                <p><strong>₹4500/night</strong></p>
+                <a href="booking.html" class="btn btn-primary">Book Now</a>
+            </div>
+        </div>
+
+        <!-- Suite -->
+        <div class="col-md-4">
+            <div class="room-card">
+                <h4>Suite</h4>
+                <p>Luxurious and spacious with premium amenities.</p>
+                <p><strong>₹7000/night</strong></p>
+                <a href="booking.html" class="btn btn-primary">Book Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>© 2025 Seaside Hotel | All Rights Reserved</p>
+</div>
+
+</body>
+</html>
